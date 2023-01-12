@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <title>Singletons in JavaScript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <h1>Singletons in JavaScript</h1>
+  <ul class="summary">
+
+  </ul>
+  <script src="./Settings.js"></script>
+  <script>
+    const s = new Settings()
+    const a = new Settings()
+    console.log(s)
+    console.log(a)//version is the same
+  </script>
+</body>
